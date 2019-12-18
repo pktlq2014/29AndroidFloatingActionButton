@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab_google"
+        android:src="@mipmap/ic_launcher"
+        app:backgroundTint="#FF5722"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:visibility="invisible"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab_fb"
+        android:src="@mipmap/ic_launcher"
+        app:backgroundTint="#009688"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:visibility="invisible"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab_skype"
+        android:src="@mipmap/ic_launcher"
+        app:backgroundTint="#3F51B5"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:visibility="invisible"
+        />
+</FrameLayout>
